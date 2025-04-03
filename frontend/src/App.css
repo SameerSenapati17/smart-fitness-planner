@@ -1,0 +1,88 @@
+.app-container {
+  text-align: center;
+  margin: 20px auto;
+  padding: 20px;
+  background: linear-gradient(135deg, #f0f8ff, #e6f7ff);
+  border-radius: 15px;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.form-container {
+  background: linear-gradient(135deg, #ffffff, #f9f9ff);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: auto;
+}
+
+.title {
+  font-size: 5rem; /* 🔥 Increase size to make it stand out */
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.purple {
+  color: #800080; /* Purple */
+}
+
+.blue {
+  color: #008cff; /* Blue */
+}
+
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.workout-plan {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 700px;
+}
+
+.workout-plan h2 {
+  color: #008cff;
+  font-weight: 600;
+}
+
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background: #f0f0f0;
+  color: #333;
+}
+
+td a {
+  color: #a000a0;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+td a:hover {
+  text-decoration: underline;
+}

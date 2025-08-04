@@ -4,7 +4,7 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 const router = express.Router();
 
 // Load API key from environment variable
-const API_KEY = "AIzaSyCpQcpKJn8rPVeBSj2oPt4NEDeWQ_NPzkU";
+const API_KEY = "ENTER YOUR GOOGLE API KEY HERE"; // Replace with process.env.GOOGLE_API_KEY if using environment variables
 
 if (!API_KEY) {
   console.error("❌ ERROR: Google API key is missing.");

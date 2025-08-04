@@ -39,9 +39,9 @@ const Form = ({ setWorkoutPlan }) => {
       }
 
       const data = await response.json();
-      console.log("✅ Backend Response:", data);
+      console.log("Backend Response:", data);
 
-      setWorkoutPlan(data.response || "No workout plan received."); // ✅ Corrected key
+      setWorkoutPlan(data.response || "No workout plan received."); // Corrected key
     } catch (error) {
       console.error("🚨 API Error:", error);
       setError(error.message);

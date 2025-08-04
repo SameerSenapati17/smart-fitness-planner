@@ -1,4 +1,4 @@
-import React, { useState } from "react"; // ✅ Ensure useState is imported
+import React, { useState } from "react"; // Ensure useState is imported
 import Form from "./components/Form";
 import WorkoutPlan from "./components/WorkoutPlan";
 import "./App.css";
@@ -24,7 +24,7 @@ function App() {
 
       <main>
         <Form setWorkoutPlan={setWorkoutPlan} />
-        {workoutPlan !== null && <WorkoutPlan plan={workoutPlan} />} {/* ✅ Fix: Ensure `workoutPlan` is checked properly */}
+        {workoutPlan !== null && <WorkoutPlan plan={workoutPlan} />} {/* Fix: Ensure `workoutPlan` is checked properly */}
       </main>
 
       <footer className="footer">

@@ -28,7 +28,8 @@ function App() {
       </main>
 
       <footer className="footer">
-        <p>Created by <strong>Sanjivini Antil</strong></p>
+        <p>Created by <strong>Sameer Senapati</strong></p>
+        <p>© 2025 Smart Fitness Planner. All rights reserved.</p>
       </footer>
     </div>
   );
